@@ -10,7 +10,7 @@ Top Bar - [Waybar](https://github.com/Alexays/waybar)
 
 Terminal - [Kitty](https://github.com/kovidgoyal/kitty)
 
-[Pipes.sh](ittps://github.com/pipeseroni/pipes.sh)
+[Pipes.sh](https://github.com/pipeseroni/pipes.sh)
 
 Audio Visualizer - [C.A.V.A](https://github.com/karlstav/cava)
 
