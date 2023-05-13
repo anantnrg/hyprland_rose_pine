@@ -1,0 +1,98 @@
+* {
+    font-family: 'JetBrains Mono Nerd Font';
+    font-weight: 600;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
+
+
+#window {
+    padding: 0 33px;
+    color: #a6adc8;
+}
+
+window#waybar {
+    background-color: transparent;
+}
+
+window#waybar.hidden {
+    opacity: 0.2;
+}
+
+#workspaces button {
+    padding: 0 5px 0 10px;
+    background-color: transparent;
+    color: #6e6a86;
+    transition-property: color;
+    transition-duration: 0.35s;
+    border-radius: 50%;
+}
+
+#workspaces button.active {
+    color: #e0def4;
+}
+
+#workspaces button.urgent {
+    background-color: #c9a0dc;
+    color: #000000;
+}
+
+#mode {
+    background-color: #64727D;
+    border-bottom: 3px solid #ffffff;
+}
+
+/* Common Widget Styles */
+
+#custom-updates,
+#window,
+#workspaces,
+#clock,
+#cpu,
+#memory,
+#pulseaudio {
+    padding: 0 15px;
+    margin-right: 8px;
+    border-radius: 10px;
+    border: 2px solid #c4a7e7;
+    background-color: #232136;
+}
+
+/* Individual Widget Styles */
+/* In order of the placement on screen */
+
+/* Clock instance which displays the date */
+#clock.date {
+    color: #eb6f92;
+    margin-right: 8px;
+}
+
+/* Pacman Updates */
+#custom-updates {
+    color: #f6c177;
+    font-weight: 600;
+}
+
+/* CPU Usage */
+#cpu {
+   padding: 0 15px;
+   color: #ea9a97;
+}
+
+/* Memory Usage */
+#memory {
+   padding: 0 15px;
+   color: #3e8fb0;
+}
+
+/* Pulseaudio Widget */
+#pulseaudio {
+    color: #9ccfd8;
+}
+
+/* Time Clock */
+#clock { 
+    color: #c4a7e7;
+    margin-right: 0;
+}

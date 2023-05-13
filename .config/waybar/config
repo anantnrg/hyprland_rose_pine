@@ -1,0 +1,57 @@
+{
+    "position": "top",
+    "height": 32, 
+    "width": 1904,
+    "spacing": 0, 
+    "margin-top": 4,
+    "modules-left": ["clock#date", "custom/updates"],
+    "modules-center": ["wlr/workspaces"],
+    "modules-right": ["cpu", "memory", "pulseaudio","clock"],
+    "custom/updates": {
+        "exec": "checkupdates | wc -l",
+	"format": "󰮯 {} pending updates",
+	"interval": 60 
+    },
+    "clock": {
+        "format": "󰥔 {:%I:%M%p}",
+    	"height": 26
+    },
+    "clock#date": {
+	"format": " {:%A, %b %d}"
+    },
+    "cpu": {
+        "format": " {usage}%",
+        "tooltip": false
+    },
+    "memory": {
+        "format": " {}%"
+    },
+    "wlr/workspaces": {
+        "format": "{icon}",
+        "on-click": "activate",
+	"active-only": false,
+	"all-outputs": true,
+	"format-icons": {
+            "1": "",
+            "2": "",
+            "3": "",
+            "4": "",
+            "5": "",
+	    "6": "",
+            "urgent": ""
+       },
+   },
+   "pulseaudio": {
+    "format": "󰓃 {volume}%",
+    "format-icons": {
+        "headphone": "",
+        "default": ["", ""]
+    },
+    "scroll-step": 1,
+    "on-click": "pavucontrol",
+    "ignored-sinks": ["Easy Effects Sink"]
+},
+   "sort-by-number": true
+}
+}
+

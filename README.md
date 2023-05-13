@@ -1,0 +1,3 @@
+# Rosé Pine and Hyprland
+
+
