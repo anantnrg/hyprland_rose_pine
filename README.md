@@ -4,25 +4,25 @@ A minimalistic Hyprland setup using the beautiful Rosé Pine (Moon variation) co
 ![](https://github.com/anantnrg/hyprland_rose_pine/blob/main/screenshots/hyprland_rose_pine.png)
 
 ## Apps used
-[Hyprland](https://hyprland.org)
+Window Manager - [Hyprland](https://hyprland.org)
 
-[Waybar](https://github.com/Alexays/waybar)
+Top Bar - [Waybar](https://github.com/Alexays/waybar)
 
-[Kitty](https://github.com/kovidgoyal/kitty)
+Terminal - [Kitty](https://github.com/kovidgoyal/kitty)
 
-[Pipes.sh](https://github.com/pipeseroni/pipes.sh)
+[Pipes.sh](ittps://github.com/pipeseroni/pipes.sh)
 
-[C.A.V.A](https://github.com/karlstav/cava)
+Audio Visualizer - [C.A.V.A](https://github.com/karlstav/cava)
 
-[NeoVim](https://neovim.io)
+Terminal Text Editor - [NeoVim](https://neovim.io)
 
-Nautilus
+File Manager - Nautilus (AKA GNOME Files)
 
-[Brave Web Browser](https://brave.com)
+Web Browser - [Brave Web Browser](https://brave.com)
 
-[Visual Studio Code Insiders](code.visualstudio.com)
+GUI Code Editor - [Visual Studio Code Insiders](code.visualstudio.com)
 
-[Btop++](https://github.com/aristocratos/btop)
+Resource Monitor - [Btop++](https://github.com/aristocratos/btop)
 
 ## Color Scheme
 [Rose Pine Moon](https://rosepinetheme.com/palette/ingredients/)
